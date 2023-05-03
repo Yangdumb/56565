@@ -1,0 +1,392 @@
+table, th, td, thead, h1, h2, h3, ol.lists, div.steps, tr, th, td
+p{
+  font-family: 'Lora', serif;
+}
+
+h1{
+text-transform: uppercase;
+font-weight: bold;
+font-size: 36px; 
+width: fit-content; 
+color: #a191be;
+text-underline-offset: 20px;  
+}
+
+h2{font-weight: bold; 
+font-size: 24px;
+}
+th{
+  font-weight: bold;
+  background-color: #AA7FC6;
+  
+}
+  
+td, th{
+  padding: 10px 10px;
+  border: 1px solid;
+}
+
+li{
+  font-weight: bold;  
+}
+
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.container {
+position: relative;
+display: flex;
+top: 50px;
+width: 70%;
+margin: 35px auto;
+padding: 35px;
+box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+border-radius: 20px;
+background-color: #c3c3e5bd;
+}
+
+.left, .right{
+width: 50%;
+display: inline-block;
+box-sizing: border-box;
+}
+
+.img-holder{
+border: 10px solid #747195;
+margin: 30px;
+border-radius: 20px;
+}
+
+.img-holder img{
+width: 100%;
+height: auto;
+display: block;
+border-radius: 20px;
+}
+#MainMenu {
+    
+    background-color: transparent;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index :999999;
+
+}
+
+#MainMenu #LOGO img{
+    height: 60px;
+    width: auto;
+    
+   
+   
+}
+
+#MainMenu #Menu{
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    text-align: right;
+}
+
+#MainMenu #Menu > li {
+    display:  inline-block;
+    padding: 0 15px;
+}
+
+#MainMenu #Menu  > li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 5;
+    padding-top: 10;
+    padding-bottom: 10;
+    display:  inline-block;
+    color: #000000;
+}
+
+#MainMenu #Menu .SubMenu {
+    background-color: #c3c3e5bd;
+    box-shadow: 4px 4px 4px rgba(73, 70, 70, 0);
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    top: 60px;
+    right:0;
+    padding: 10px;
+}
+
+#MainMenu #Menu .SubMenu a {
+    padding: 10px;
+    line-height: 1;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+#MainMenu #Menu > li:hover .SubMenu {
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+#MainMenu #Menu .SubMenu li:hover a{
+    transition: all 0.3s ease-in-out;
+    background-color: #eee9f0;
+}
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    margin: 0;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+th {
+    font-weight: bold;
+}
+td, th{
+        display: table-cell;
+        vertical-align: inherit;
+        padding-right: 25px;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    text-underline-offset: 20px;
+    color: blacK;
+}
+h3, p {
+    font-weight: bold;
+}
+.container {
+    position: relative;
+    display: flex;
+    top: 100px;
+    width: 70%;
+    margin: 35px auto;
+    padding: 35px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color: #faf0e7;
+}
+
+.left, .right{
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.img-holder{
+    border: 5px solid #a57a58;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.img-holder img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+/*HEADER*/
+#main-menu{
+    background: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+}
+#main-menu #mylogo{
+    display: flex;
+    align-items: center;
+    
+}
+
+#main-menu #mylogo img{
+    width: 5vh;
+    margin: 3vh;
+}
+
+#main-menu #menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-menu #menu > li{
+    list-style-type: none;
+}
+
+#main-menu #menu > li > a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 20px;
+}
+
+#main-menu #menu li a:hover{
+    background: black;
+    color: white;
+}
+
+#main-menu #menu .sub-menu{
+    background-color:#edd3b5;
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 1px 10px 20px 1px rgba(0,0,0,0.5);
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+}
+
+#main-menu #menu .sub-menu a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+#main-menu #menu .sub-menu a:hover{
+    background-color: black;
+}
+
+#main-menu #menu .sub-menu li:hover a{
+        color: white;
+}
+
+#main-menu #menu > li:hover .sub-menu{
+    display: block;
+} 
+
+
+/* HOMEPAGE */
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+  
+.header2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+ 
+.title {
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0 0 5px black;;
+}
+  
+section {
+    padding: 2rem;
+    background-color: #d36d6d00;
+    color: white;
+}
+
+.homecontainer {
+    position: relative;
+    padding: 0;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .3);
+    display: flex;
+    margin: 35px auto;
+}
+  
+.row{
+    display: flex;
+}
+
+.image-homecontainer {
+    position: relative;
+    width: 100px;
+    height: auto;
+}
+  
+.image-text {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0 0 0);
+}
+  
+
+.image {
+    object-fit: cover;
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.overlay {
+    background-color: #fff;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    border-radius: 20px;
+}
+
+.homecontainer:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+
+.recipes {
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: -webkit-xxx-large;
+} 
